@@ -28,7 +28,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = f"({file_name}  \n ✪༺ ──•◈•─ ─•◈•──༻✪
+                caption = f"{file_name}  \n ✪༺ ──•◈•─ ─•◈•──༻✪
 
 🔰👉പുതുപുത്തൻ സിനിമകൾക്ക് ഗ്രൂപ്പിൽ ജോയിൻ ചെയ്യുക 👇😊
 
@@ -39,7 +39,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔰GROUP🔰', url="https://t.me/cinemahub_official"
+                                    '🔰JOIN GROUP🔰', url="https://t.me/cinemahub_official"
                                 )
                         ]
                     ]
