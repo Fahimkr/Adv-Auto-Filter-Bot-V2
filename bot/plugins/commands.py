@@ -28,7 +28,11 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = f"({file_name}  \n ✪༺ ──•◈•─ ─•◈•──༻✪
+
+🔰👉പുതുപുത്തൻ സിനിമകൾക്ക് ഗ്രൂപ്പിൽ ജോയിൻ ചെയ്യുക 👇😊
+
+💥@cinemahub_official💥",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
