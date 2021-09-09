@@ -51,10 +51,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('🔰GROUP🔰', url='https://t.me/cinemahub_official'),
-        InlineKeyboardButton('📩CHANNEL📩', url ='https://t.me/cinimahub_official')
+        InlineKeyboardButton('🔰GROUP🔰', url="https://t.me/cinemahub_official"),
+        InlineKeyboardButton('📩CHANNEL📩', url ="https://t.me/cinimahub_official")
     ],[
-        InlineKeyboardButton('📥CHANNEL2📥', url='https://t.me/cinimahubofficial')
+        InlineKeyboardButton('📥CHANNEL2📥', url="https://t.me/cinimahubofficial")
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
